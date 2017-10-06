@@ -1,0 +1,15 @@
+1. 配置vimrc
+    cp vimrc ~/.vimrc
+2. 安装ctags
+    apt-get install ctags
+3. 安装taglist插件
+    unzip taglist_46.zip
+    mv plugin/ doc/ ~/.vim/
+4. 安装cscope
+    apt-get install cscope
+5. 安装winmanager插件
+    vi winmanager.vmb
+    :so%
+    :q
+6. 安装minibufexplorer插件
+    cp minibufexplpp.vim ~/.vim/plugin/
